@@ -1,6 +1,7 @@
 import './App.css';
 import AiVerification from './components/AiVerification';
 import Header from './components/Header';
+import ServiceSec from './components/ServiceSec';
 import TrustCompanies from './components/TrustCompanies';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <TrustCompanies />
       <AiVerification />
+      <ServiceSec />
     </div>
   );
 }
