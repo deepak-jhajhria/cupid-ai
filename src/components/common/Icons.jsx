@@ -802,10 +802,21 @@ export const CircleEllipseSvg = () => {
         </svg>
     );
 };
+// faq 
+
+export const Arrow = ({ id, open }) => {
+    return (
+        <div className="relative ">
+            <svg className={`${id === open ? "rotate-180" : "rotate-0"} transition-transform`} width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.99823 11.2439C8.10963 11.2422 8.2195 11.2177 8.321 11.1717C8.4225 11.1258 8.51347 11.0595 8.58823 10.9769L13.4132 6.03886C13.4829 5.97014 13.5378 5.88799 13.5748 5.79741C13.6117 5.70682 13.6299 5.60968 13.6282 5.51186C13.6293 5.41288 13.6107 5.31467 13.5735 5.22293C13.5363 5.13118 13.4813 5.04773 13.4116 4.97741C13.342 4.90709 13.259 4.8513 13.1676 4.81327C13.0763 4.77524 12.9782 4.75572 12.8792 4.75586C12.6762 4.75586 12.4792 4.83886 12.3332 4.98486L8.00423 9.43486L3.66323 4.98486C3.5178 4.84063 3.32203 4.75853 3.11723 4.75586C3.01816 4.75559 2.92002 4.77501 2.82851 4.81298C2.737 4.85095 2.65394 4.90672 2.58417 4.97705C2.51439 5.04739 2.45928 5.13088 2.42204 5.22269C2.3848 5.3145 2.36617 5.41279 2.36723 5.51186C2.36723 5.72186 2.44423 5.89886 2.58323 6.03886L7.41423 10.9769C7.58523 11.1549 7.77623 11.2439 7.99823 11.2439Z" fill="white" />
+            </svg>
+        </div>
+    );
+}
 export const FooterLogo = () => {
     return (
         <svg
-        className="w-8 h-8 sm:w-10 sm:h-10"
+            className="w-8 h-8 sm:w-10 sm:h-10"
             width="39"
             height="38"
             viewBox="0 0 39 38"
@@ -1084,3 +1095,52 @@ export const RedStar = () => {
 
     )
 }
+
+
+export const WhiteArrow = () => {
+    return (
+        <svg className="transition-transform duration-300 ease-linear group-hover:translate-x-1" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.6055 4.75L14.1055 8M14.1055 8L10.6055 11.25M14.1055 8H3.60547" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+    )
+}
+export const BackToTopIcon = () => {
+    return (
+        <svg className="w-3 duration-300 fill-white" viewBox="0 0 384 512">
+            <path
+                d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+            ></path>
+        </svg>
+    )
+}
+export const GradientLineSvg = () => {
+    return (
+        <svg
+            className="w-[200px] sm:w-[313px]"
+            width="313"
+            height="14"
+            viewBox="0 0 313 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                d="M1 11C54.8269 4.96301 192.385 -3.48877 312 11"
+                stroke="url(#paint0_linear_72_8932)"
+                strokeWidth="6"
+            />
+            <defs>
+                <linearGradient
+                    id="paint0_linear_72_8932"
+                    x1="-48.8773"
+                    y1="11.6811"
+                    x2="80.3431"
+                    y2="-168.196"
+                    gradientUnits="userSpaceOnUse"
+                >
+                    <stop stopColor="#090EDB" />
+                    <stop offset="1" stopColor="#E73DC4" />
+                </linearGradient>
+            </defs>
+        </svg>
+    );
+};
