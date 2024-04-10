@@ -1,5 +1,5 @@
 import clupiAiImage from "../assets/images/clupiai.webp";
-import { crmData } from "./common/Helper";
+import { aiVerificationData } from "./common/Helper";
 import { YellowMan } from "./common/Icons";
 const AiVerification = () => {
     return (
@@ -9,7 +9,7 @@ const AiVerification = () => {
                 <p className="font-medium text-gray md:text-xxl text-lg sm:text-xl mt-[22px] tracking-[0.2px]">Tweak anything and everything to ensure fits<br />your business, not the other way around.</p>
                 <div className=" overflow-hidden my-10 md:mb-20 md:mt-16 lg:mt-[92px]  pt-9 px-3 sm:px-6 lg:px-10 border-[#3C3C3C] border  rounded-[20px] bg-[#0A0A0A] ">
                     <div className="flex flex-row justify-between mb-5 max-xl:overflow-x-scroll snap-mandatory snap-x scrolbar flex-nowrap sm:mb-11 md:mb-16">
-                        {crmData.map((obj, i) => (
+                        {aiVerificationData.map((obj, i) => (
                             <div key={i} className="group duration-200 snap-start mb-4 min-w-[324px]  sm:min-w-[401px]  sm:pe-4 h-full ">
                                 <div className="flex items-center gap-[10px]">
                                     <span>{obj.icon}</span>

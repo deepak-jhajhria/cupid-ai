@@ -1,4 +1,4 @@
-import { footerlinkData, icons, navLinkData } from "./common/Helper"
+import { footerlinkData, icons } from "./common/Helper"
 import { FooterGradientMixup, FooterLogo } from "./common/Icons"
 
 const Footer = () => {

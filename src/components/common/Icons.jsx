@@ -37,9 +37,6 @@ export const HeroBg = () => {
         </svg>
     )
 }
-
-// section 2
-
 export const YellowMan = () => {
     return (
         <svg className="rounded-full " width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -64,8 +61,6 @@ export const GridlineBox = () => {
         </svg>
     );
 };
-
-// section 3 
 export const ServiceSvg = () => {
     return (
         <svg className="duration-300" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -301,8 +296,6 @@ export const CircleEllipseSvg = () => {
         </svg>
     );
 };
-// faq 
-
 export const Arrow = ({ id, open }) => {
     return (
         <div className="relative ">
@@ -505,7 +498,6 @@ export const GreenTick = () => {
 
     )
 }
-
 export const RedStar = () => {
     return (
         <svg className="w-5 h-5 sm:w-6 sm:h-6" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -515,8 +507,6 @@ export const RedStar = () => {
 
     )
 }
-
-
 export const WhiteArrow = () => {
     return (
         <svg className="transition-transform duration-300 ease-linear group-hover:translate-x-1" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
