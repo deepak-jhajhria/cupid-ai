@@ -10,9 +10,9 @@ const Faq = () => {
     };
     return (
         <div id='faq' className='container max-w-[1320px] xl:max-w-[1300px]'>
-            <div className='max-w-[700px] mx-auto pt-16 sm:pt-28 md:pt-32 xl:pt-64 relative z-10'>
+            <div className='max-w-[700px] mx-auto pt-16 sm:pt-28 md:pt-32 xl:pt-64 relative z-20'>
                 <h2 className='font-bold tracking-tighter text-white lg:text-4xl sm:text-3xl2 text-3xl1 md:leading-11'>FAQs</h2>
-                <p className='pb-2 mt-5 text-lg leading-6 text-gray font-inter md:text-xl md:leading-7 tracking-tightest md:mt-6'>Answers to the most frequently asked questions.</p>
+                <p className='pb-2 mt-3 text-lg leading-6 text-gray font-inter md:text-xl md:leading-7 tracking-tightest md:mt-6'>Answers to the most frequently asked questions.</p>
                 {accordionData.map((item, index) => (
                     <Accordion key={index} onClick={() => toggleAccordion(index)} className={`cursor-pointer border-b border-white border-opacity-10 mt-5 sm:mt-6 md:mt-8 ${item.id === 6 ? "border-0" : ""}`} open={open === index} icon={<Arrow id={index} open={open} />}>
                         <AccordionHeader className={`font-semibold text-white text-2sm md:text-base text-start w-full justify-between gap-3 border-0  mb-0.5 pt-0 duration-300 leading-6 pb-5 sm:pb-6 md:pb-8 focus-visible:outline-none ${open === index ? "" : ""}`}>{item.title}
