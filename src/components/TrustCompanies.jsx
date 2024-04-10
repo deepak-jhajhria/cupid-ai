@@ -9,12 +9,7 @@ const TrustCompanies = () => {
         </p>
         <div className="flex items-center justify-center px-3 mt-8 gap-7 xl:gap-12 max-slg:animate-moveX max-sm:animate-moveSmX">
           {companiesData.map((obj, i) => (
-            <img
-              key={i}
-              src={obj.companyLogo}
-              alt={obj.alt}
-              className={` cursor-pointer xl:w-full md:w-40 lg:w-44  h-12 ${obj.none}`}
-            />
+            <a key={i} href={`http://${obj.companyLink}.com`} target="_blank" rel="noopener noreferrer" className="group"><span className={` opacity-60 duration-300 group-hover:opacity-100 ${obj.none}`}>{obj.companyLogo}</span></a>
           ))}
         </div>
       </div>

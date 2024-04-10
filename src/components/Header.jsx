@@ -8,14 +8,14 @@ const Header = () => {
     const [isOpen, setOpen] = useOverflowHidden(false);
     return (
         <>
-            <div className="relative overflow-hidden min-h-[667px] md:min-h-[781px]">
+            <div className="relative overflow-hidden min-h-[620px] md:min-h-[781px]">
                 <div className="container max-w-[1320px]">
                     <span className="absolute bottom-0 left-0 z-0 w-full h-full"><HeroBg /></span>
-                    <div>
-                        <nav className=" bg-black-primary-100 rounded-full  p-3 lg:p-2.5 mt-10 border border-[#3A373D]">
+                    <div className="">
+                        <nav className=" bg-black-primary-100 rounded-2md sm:rounded-full  p-2 lg:p-2.5 mt-4 sm:mt-8 md:mt-10 border border-[#3A373D]">
                             <div className="relative z-10 flex items-center justify-between">
                                 <a className="flex items-center gap-2 text-2xl font-bold text-white sm:text-3xl" href="/"><span> <Logo /> </span> CupidAI</a>
-                                <ul className={`${isOpen ? "right-0" : "-right-full"} flex max-lg:fixed max-lg:top-0 max-lg:bg-black md:bg-full bg-cover max-lg:h-full max-lg:w-full max-lg:z-30 max-lg:duration-300 max-lg:flex-col gap-7 items-center justify-center`}>
+                                <ul className={`${isOpen ? "right-0" : "-right-full"} flex max-lg:fixed max-lg:top-0 max-lg:bg-black md:bg-full bg-cover max-lg:h-full max-lg:w-full !max-lg:z-50 max-lg:duration-300 max-lg:flex-col gap-7 items-center justify-center`}>
                                     {
                                         navLinkData.map((item, index) => (
                                             <li key={index}>
@@ -23,25 +23,27 @@ const Header = () => {
                                             </li>
                                         ))
                                     }
+                                    <li className="mt-10 lg:hidden"><a href="#" className="font-normal text-xl leading-4 duration-300 text-white hover:text-[#B302B1]"> Log in</a></li>
+                                    <li className="lg:hidden"><CommonBtn name="Sing up" /></li>
                                 </ul>
                                 <div className="items-center hidden gap-5 lg:flex">
                                     <a href="#" className="font-normal text-xl leading-4 duration-300 text-white hover:text-[#B302B1]"> Log in</a>
                                     <CommonBtn name="Sing up" />
                                 </div>
-                                <div className='relative z-[110] mx-2 sm:mx-3 lg:hidden'>
+                                <div className={`relative z-[110] mx-2 sm:mx-3 lg:hidden ${isOpen ? " absolute -top-3 -right-3" : ""}`}>
                                     <Hamburger toggled={isOpen} toggle={setOpen} size={26} rounded distance="sm" direction='right' duration={0.5} color='#FFF' />
                                 </div>
                             </div>
                         </nav>
                     </div>
-                    <div className="flex flex-col w-full justify-center items-center max-w-[691px] px-3 mx-auto relative z-10 mt-16 pt-2">
-                        <h2 className="font-semibold text-center text-white text-3xl2 sm:text-5xl md:text-6xl lg:text-7xl leading-11 md:leading-13">Unleash <span className="text-transparent bg-headerTextgradient bg-clip-text">Creativity</span>, Effortlessly</h2>
-                        <p className="mt-3 text-base font-normal text-center text-white md:leading-8 sm:text-lg md:text-xl md:mt-4">Elevate your agency's output with state-of-the-art AI, engineered to innovate at the speed of thought.</p>
+                    <div className="flex flex-col w-full justify-center items-center max-w-[691px] px-3 md:px-0 mx-auto mt-16 pt-2 relative z-[2]">
+                        <h2 className="font-semibold text-center text-white text-3xl2 sm:text-5xl md:text-6xl lg:text-7xl leading-11 sm:leading-12 lg:leading-13">Unleash <span className="text-transparent bg-headerTextgradient bg-clip-text">Creativity</span>, Effortlessly</h2>
+                        <p className="mt-2 text-base font-normal text-center text-white md:leading-6 sm:text-lg md:text-xl">Elevate your agency's output with state-of-the-art AI, engineered to innovate at the speed of thought.</p>
                         <CommonBtn className="mt-5" name="Try Now" />
                     </div>
                 </div>
             </div>
-            <img src={dashboardimg} alt="dashboardimg" className="mx-auto max-w-[960px] w-full -translate-y-[43%] pl-4 sm:pl-5 md:pl-8 lg:pl-12" />
+            <img src={dashboardimg} alt="dashboardimg" className="mx-auto max-w-[960px] w-full -translate-y-[48%] sm:-translate-y-[38%] md:-translate-y-[48%] pl-4 sm:pl-5 md:pl-8 lg:pl-12" />
         </>
     );
 };

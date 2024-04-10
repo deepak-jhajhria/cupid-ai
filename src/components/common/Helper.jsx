@@ -1,15 +1,10 @@
-import blotshift from "../../assets/images/boltshift.webp";
-import lighbox from "../../assets/images/lightbox.webp";
-import featherdev from "../../assets/images/featherdev.webp";
-import spherule from "../../assets/images/spherule.webp";
-import globalbank from "../../assets/images/globalbank.webp";
-import { FacebookIcon, GridlineBox, InstaIcon, ServiceSvg, ServiceSvg2, ServiceSvg3, ServiceSvg4, TelegramIcon, TwiterIcon } from "./Icons";
+import { BoltShiftLogo, FacebookIcon, FatherDevLogo, GlobalBankLogo, GridlineBox, InstaIcon, LightBoxLogo, ServiceSvg, ServiceSvg2, ServiceSvg3, ServiceSvg4, SpheruleLogo, TelegramIcon, TwiterIcon } from "./Icons";
 import { RedStar, WhiteTick } from "./Icons"
 export const navLinkData = [
     { path: "#home", link: "Home" },
     { path: "#whyus", link: "Why us" },
     { path: "#service", link: "Services" },
-    { path: "#faq", link: "FAQ" },
+    { path: "#faq", link: "FAQs" },
 ];
 export const CommonBtn = (props) => {
     return (
@@ -38,20 +33,20 @@ export const crmData = [
 ];
 
 export const companiesData = [
-    { companyLogo: blotshift, alt: "blotshift" },
-    { companyLogo: lighbox, alt: "lighbox" },
-    { companyLogo: featherdev, alt: "featherdev" },
-    { companyLogo: spherule, alt: "spherule" },
-    { companyLogo: globalbank, alt: "globalbank" },
-    { companyLogo: blotshift, alt: "blotshift", none: "slg:hidden" },
-    { companyLogo: lighbox, alt: "lighbox", none: "slg:hidden" },
-    { companyLogo: featherdev, alt: "featherdev", none: "slg:hidden" },
-    { companyLogo: spherule, alt: "spherule", none: "slg:hidden" },
-    { companyLogo: globalbank, alt: "globalbank", none: "slg:hidden" },
-    { companyLogo: lighbox, alt: "lighbox", none: "slg:hidden" },
-    { companyLogo: featherdev, alt: "featherdev", none: "slg:hidden" },
-    { companyLogo: spherule, alt: "spherule", none: "slg:hidden" },
-    { companyLogo: globalbank, alt: "globalbank", none: "slg:hidden" },
+    { companyLogo: (<BoltShiftLogo />), companyLink: "blotshift" },
+    { companyLogo: (<LightBoxLogo />), companyLink: "lighbox" },
+    { companyLogo: (<FatherDevLogo />), companyLink: "featherdev" },
+    { companyLogo: (<SpheruleLogo />), companyLink: "spherule" },
+    { companyLogo: (<GlobalBankLogo />), companyLink: "globalbank" },
+    { companyLogo: (<BoltShiftLogo />), companyLink: "blotshift", none: "slg:hidden" },
+    { companyLogo: (<LightBoxLogo />), companyLink: "lighbox", none: "slg:hidden" },
+    { companyLogo: (<FatherDevLogo />), companyLink: "featherdev", none: "slg:hidden" },
+    { companyLogo: (<SpheruleLogo />), companyLink: "spherule", none: "slg:hidden" },
+    { companyLogo: (<GlobalBankLogo />), companyLink: "globalbank", none: "slg:hidden" },
+    { companyLogo: (<LightBoxLogo />), companyLink: "lighbox", none: "slg:hidden" },
+    { companyLogo: (<FatherDevLogo />), companyLink: "featherdev", none: "slg:hidden" },
+    { companyLogo: (<SpheruleLogo />), companyLink: "spherule", none: "slg:hidden" },
+    { companyLogo: (<GlobalBankLogo />), companyLink: "globalbank", none: "slg:hidden" },
 ];
 
 
@@ -144,9 +139,9 @@ export const IndividualData = () => {
                 {Includedata.map((line, index) => {
                     return (
                         <div key={index} className='flex gap-3 '>
-                            <div>
+                            <span>
                                 <WhiteTick />
-                            </div>
+                            </span>
                             <p className='font-medium text-2sm text-dark-gray leading-2xl'>{line.description}</p>
                         </div>
                     )

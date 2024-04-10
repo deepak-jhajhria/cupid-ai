@@ -25,8 +25,8 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '14px',
-        'xl': '14px',
+        DEFAULT: '12px',
+        'md': '14px',
       },
       center: true,
     },
@@ -48,7 +48,7 @@ module.exports = {
       lineHeight: {
         '11': '48.41px',
         '12': '56px',
-        '13': '72px',
+        '13': '65px',
         '14': '81%',
         '15': '125%',
         '16': '140%',
