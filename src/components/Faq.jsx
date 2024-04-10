@@ -9,8 +9,8 @@ const Faq = () => {
         setOpen(open === index ? true : index);
     };
     return (
-        <div id='faq' className='container max-w-[1300px]'>
-            <div className='max-w-[700px] mx-auto pt-16 sm:pt-32 md:pt-52 lg:pt-64'>
+        <div id='faq' className='container max-w-[1320px] xl:max-w-[1300px]'>
+            <div className='max-w-[700px] mx-auto pt-16 sm:pt-28 md:pt-32 xl:pt-64 relative z-10'>
                 <h2 className='font-bold tracking-tighter text-white lg:text-4xl sm:text-3xl2 text-3xl1 md:leading-11'>FAQs</h2>
                 <p className='pb-2 mt-5 text-lg leading-6 text-gray font-inter md:text-xl md:leading-7 tracking-tightest md:mt-6'>Answers to the most frequently asked questions.</p>
                 {accordionData.map((item, index) => (

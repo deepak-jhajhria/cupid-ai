@@ -27,6 +27,7 @@ module.exports = {
       padding: {
         DEFAULT: '12px',
         'md': '14px',
+        'xl':'0',
       },
       center: true,
     },
@@ -95,8 +96,8 @@ module.exports = {
           '100%': { transform: 'translateX(-80%)' },
         },
         translateSmX: {
-          '0%': { transform: 'translateX(300%)' },
-          '100%': { transform: 'translateX(-300%)' },
+          '0%': { transform: 'translateX(150%)' },
+          '100%': { transform: 'translateX(-150%)' },
         },
         move_ellipes: {
           '0%': {

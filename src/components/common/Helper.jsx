@@ -144,7 +144,7 @@ export const IndividualData = () => {
                             <span>
                                 <WhiteTick />
                             </span>
-                            <p className='font-medium text-2sm text-dark-gray leading-2xl'>{line.description}</p>
+                            <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-2xl'>{line.description}</p>
                         </div>
                     )
                 })}
@@ -161,7 +161,7 @@ export const Entrepreneurcontent = () => {
                         <span>
                             <WhiteTick />
                         </span>
-                        <p className='font-medium text-2sm text-dark-gray leading-2xl'>{line.description}</p>
+                        <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-2xl'>{line.description}</p>
                     </div>
                 )
             })}
@@ -169,7 +169,7 @@ export const Entrepreneurcontent = () => {
                 <div>
                     <RedStar />
                 </div>
-                <p className='font-medium text-2sm text-dark-gray leading-2xl'>More Coming Soon</p>
+                <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-2xl'>More Coming Soon</p>
             </div>
         </div>
     </>)
@@ -186,7 +186,7 @@ export const BusinessData = () => {
                                 <div>
                                     <WhiteTick />
                                 </div>
-                                <p className='font-medium text-2sm text-dark-gray leading-2xl'>{line.description}</p>
+                                <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-2xl'>{line.description}</p>
                             </div>
                         )
                     })}
@@ -195,7 +195,7 @@ export const BusinessData = () => {
                     <div>
                         <RedStar />
                     </div>
-                    <p className='font-medium text-2sm text-dark-gray leading-2xl'>More Coming Soon</p>
+                    <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-2xl'>More Coming Soon</p>
                 </div>
             </div>
         </>

@@ -1,8 +1,8 @@
 import { CircleEllipseSvg, GradientLineSvg } from "./common/Icons"
 const IdentityHub = () => {
     return (
-        <div className="relative mt-16 sm:py-24 md:py-32 lg:py-40 overflow-x-clip md:mt-24 lg:mt-48">
-            <div className="flex flex-col w-full justify-center items-center max-w-[691px] px-3 pt-1 mx-auto relative z-10">
+        <div className="relative z-10 mt-16 sm:py-20 md:py-24 xl:py-40 overflow-x-clip md:mt-24 xl:mt-48">
+            <div className="flex flex-col w-full justify-center items-center max-w-[691px] px-3 lg:px-0 pt-1 mx-auto relative z-10">
                 <h2 className="font-semibold leading-10 text-center text-white sm:leading-12 text-3xl1 sm:text-6xl lg:text-7xl md:leading-13">Be part of the future of <br /> IdentityHub</h2>
                 <span className="-mt-1"><GradientLineSvg /></span>
                 <p className="mt-3 text-base font-normal text-center md:leading-8 sm:text-lg lg:text-xl text-gray-white-100 md:mt-4">Unleash the power of AI within cupid. Upgrade your productivity with cupid, the open AI chat app.</p>
