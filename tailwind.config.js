@@ -51,7 +51,7 @@ module.exports = {
         '13': '65px',
         '14': '81%',
         '15': '125%',
-        '16': '140%',
+        '16': '138%',
         '17': '147%',
         '18': '156%'
       },
@@ -60,7 +60,7 @@ module.exports = {
       },
       colors: {
         'black-primary': '#040403',
-        'black-primary-nav': '#2F3035',
+        'black-primary-nav': '#01020F',
         'black-primary-100': '#01020f63',
         'black-primary-200': '#FBF0F02E',
         'gray': '#646464',
@@ -118,11 +118,11 @@ module.exports = {
         'gradientTrailBtn': "linear-gradient(96.17deg, #7F04E3 6%, #FF006B 98.41%)",
       },
       backgroundSize: {
-        "BgSize": "100% 100%"
+        "BgSizeFull": "100% 100%"
       },
       borderRadius: {
-        '2md': '41px',
-        '3md': '48px',
+        '4xl': '41px',
+        '5xl': '48px',
       },
     },
   },
