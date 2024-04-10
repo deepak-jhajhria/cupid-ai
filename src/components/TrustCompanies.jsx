@@ -9,7 +9,7 @@ const TrustCompanies = () => {
         </p>
         <div className="flex items-center justify-center px-3 mt-8 gap-7 xl:gap-12 max-slg:animate-moveX max-sm:animate-moveSmX">
           {companiesData.map((obj, i) => (
-            <a key={i} href={`http://${obj.companyLink}.com`} target="_blank" rel="noopener noreferrer" className={`group ${obj.ClassName}`}><span className={` opacity-60 duration-300 group-hover:opacity-100`}>{obj.companyLogo}</span></a>
+            <a key={i} href={`http://${obj.companyLink}.com`} target="_blank" rel="noopener noreferrer" className={`group ${obj.ClassName}`}><span className={` opacity-40 duration-300 group-hover:opacity-100`}>{obj.companyLogo}</span></a>
           ))}
         </div>
       </div>

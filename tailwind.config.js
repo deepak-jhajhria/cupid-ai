@@ -35,7 +35,7 @@ module.exports = {
     },
     letterSpacing: {
       tighter: '-1px', //use
-      midtighter: '0.3px',
+      midtighter: '0.05px', // use
       tightest: '-0.5px', //use
       tight: '-.025em',
       normal: '0',

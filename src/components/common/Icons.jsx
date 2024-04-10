@@ -68,7 +68,7 @@ export const GridlineBox = () => {
 // section 3 
 export const ServiceSvg = () => {
     return (
-        <svg className="duration-500" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" >
+        <svg className="duration-300" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" >
             <g filter="url(#filter0_ii_72_8710)">
                 <path className="group-hover:fill-[#FFFFFF42] fill-[#1d1d1d]" d="M40.276 0H15.1367C7.75423 0 1.76953 5.9847 1.76953 13.3672V38.5065C1.76953 45.889 7.75423 51.8737 15.1367 51.8737H40.276C47.6585 51.8737 53.6432 45.889 53.6432 38.5065V13.3672C53.6432 5.9847 47.6585 0 40.276 0Z" />
             </g>
@@ -147,7 +147,7 @@ export const ServiceSvg = () => {
 };
 export const ServiceSvg2 = () => {
     return (
-        <svg className="duration-500" width="56" height="59" viewBox="0 0 56 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="duration-300" width="56" height="59" viewBox="0 0 56 59" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_ii_72_8721)">
                 <path className="group-hover:fill-[#FFFFFF42] fill-[#FFFFFF0F] shadow-[0px_1.34px_1.34px_0px_#FFFFFF26_inset,0px_0px_20.05px_0px_#FFFFFF0D_inset]" d="M27.4105 57.6784C42.5489 57.6784 54.821 45.4063 54.821 30.2679C54.821 15.1295 42.5489 2.85742 27.4105 2.85742C12.2721 2.85742 0 15.1295 0 30.2679C0 45.4063 12.2721 57.6784 27.4105 57.6784Z" />
             </g>
@@ -187,7 +187,7 @@ export const ServiceSvg2 = () => {
 };
 export const ServiceSvg3 = () => {
     return (
-        <svg className="duration-500" width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="duration-300" width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_72_8726)">
                 <g filter="url(#filter0_ii_72_8726)">
                     <path className="group-hover:fill-[#FFFFFF42] fill-[#FFFFFF0F] shadow-[0px_1.34px_1.34px_0px_#FFFFFF26_inset,0px_0px_20.05px_0px_#FFFFFF0D_inset]" d="M40.8659 0.5H15.7266C8.34407 0.5 2.35938 6.4847 2.35938 13.8672V39.0065C2.35938 46.389 8.34407 52.3737 15.7266 52.3737H40.8659C48.2484 52.3737 54.2331 46.389 54.2331 39.0065V13.8672C54.2331 6.4847 48.2484 0.5 40.8659 0.5Z" fill="white" />
@@ -246,44 +246,44 @@ export const ServiceSvg3 = () => {
 };
 export const ServiceSvg4 = () => {
     return (
-        <svg className="duration-500" width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="duration-300" width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_72_8733)">
                 <g filter="url(#filter0_ii_72_8733)">
-                    <path className="group-hover:fill-[#FFFFFF42] fill-[#FFFFFF0F] shadow-[0px_1.34px_1.34px_0px_#FFFFFF26_inset,0px_0px_20.05px_0px_#FFFFFF0D_inset]" d="M56.82 28.91C56.82 44.0481 44.5481 56.32 29.41 56.32C14.2719 56.32 2 44.0481 2 28.91C2 13.7719 14.2719 1.5 29.41 1.5C44.5481 1.5 56.82 13.7719 56.82 28.91Z" fill="white"/>
+                    <path className="group-hover:fill-[#FFFFFF42] fill-[#FFFFFF0F] shadow-[0px_1.34px_1.34px_0px_#FFFFFF26_inset,0px_0px_20.05px_0px_#FFFFFF0D_inset]" d="M56.82 28.91C56.82 44.0481 44.5481 56.32 29.41 56.32C14.2719 56.32 2 44.0481 2 28.91C2 13.7719 14.2719 1.5 29.41 1.5C44.5481 1.5 56.82 13.7719 56.82 28.91Z" fill="white" />
                 </g>
                 <g filter="url(#filter1_i_72_8733)">
-                    <path className="group-hover:fill-[#FFFFFF99]" d="M26.277 16.2974C25.6177 17.7283 25.25 19.3212 25.25 21C25.25 27.2132 30.2867 32.25 36.5 32.25C38.1787 32.25 39.7717 31.8822 41.2025 31.223C39.9597 36.8171 34.9684 41 29 41C22.0964 41 16.5 35.4035 16.5 28.5C16.5 22.5316 20.6829 17.5403 26.277 16.2974ZM36.7052 16.3638L37.75 16.625V17.875L36.7052 18.1362C35.8095 18.3601 35.1101 19.0595 34.8862 19.9552L34.625 21H33.375L33.1137 19.9552C32.8899 19.0595 32.1905 18.3601 31.2947 18.1362L30.25 17.875V16.625L31.2947 16.3638C32.1905 16.1399 32.8899 15.4405 33.1137 14.5448L33.375 13.5H34.625L34.8862 14.5448C35.1101 15.4405 35.8095 16.1399 36.7052 16.3638ZM42.9552 22.6138L44 22.875V24.125L42.9552 24.3862C42.0595 24.6101 41.3601 25.3095 41.1362 26.2052L40.875 27.25H39.625L39.3637 26.2052C39.1399 25.3095 38.4405 24.6101 37.5447 24.3862L36.5 24.125V22.875L37.5447 22.6138C38.4405 22.3899 39.1399 21.6905 39.3637 20.7948L39.625 19.75H40.875L41.1362 20.7948C41.3601 21.6905 42.0595 22.3899 42.9552 22.6138Z" fill="#FFFFFF1A"/>
+                    <path className="group-hover:fill-[#FFFFFF99]" d="M26.277 16.2974C25.6177 17.7283 25.25 19.3212 25.25 21C25.25 27.2132 30.2867 32.25 36.5 32.25C38.1787 32.25 39.7717 31.8822 41.2025 31.223C39.9597 36.8171 34.9684 41 29 41C22.0964 41 16.5 35.4035 16.5 28.5C16.5 22.5316 20.6829 17.5403 26.277 16.2974ZM36.7052 16.3638L37.75 16.625V17.875L36.7052 18.1362C35.8095 18.3601 35.1101 19.0595 34.8862 19.9552L34.625 21H33.375L33.1137 19.9552C32.8899 19.0595 32.1905 18.3601 31.2947 18.1362L30.25 17.875V16.625L31.2947 16.3638C32.1905 16.1399 32.8899 15.4405 33.1137 14.5448L33.375 13.5H34.625L34.8862 14.5448C35.1101 15.4405 35.8095 16.1399 36.7052 16.3638ZM42.9552 22.6138L44 22.875V24.125L42.9552 24.3862C42.0595 24.6101 41.3601 25.3095 41.1362 26.2052L40.875 27.25H39.625L39.3637 26.2052C39.1399 25.3095 38.4405 24.6101 37.5447 24.3862L36.5 24.125V22.875L37.5447 22.6138C38.4405 22.3899 39.1399 21.6905 39.3637 20.7948L39.625 19.75H40.875L41.1362 20.7948C41.3601 21.6905 42.0595 22.3899 42.9552 22.6138Z" fill="#FFFFFF1A" />
                 </g>
             </g>
             <defs>
                 <filter id="filter0_ii_72_8733" x="2" y="1.5" width="54.8203" height="57.088" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                     <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dy="2.26765" />
                     <feGaussianBlur stdDeviation="1.13383" />
                     <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
-                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_72_8733"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_72_8733" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset />
                     <feGaussianBlur stdDeviation="17.0074" />
                     <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"/>
-                    <feBlend mode="normal" in2="effect1_innerShadow_72_8733" result="effect2_innerShadow_72_8733"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0" />
+                    <feBlend mode="normal" in2="effect1_innerShadow_72_8733" result="effect2_innerShadow_72_8733" />
                 </filter>
                 <filter id="filter1_i_72_8733" x="16.5" y="13.5" width="27.5" height="28.8367" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
                     <feFlood floodOpacity="0" result="BackgroundImageFix" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                     <feOffset dy="1.33672" />
                     <feGaussianBlur stdDeviation="0.66836" />
                     <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"/>
-                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_72_8733"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_72_8733" />
                 </filter>
                 <clipPath id="clip0_72_8733">
-                    <rect width="57" height="56" fill="white" transform="translate(0 0.5)"/>
+                    <rect width="57" height="56" fill="white" transform="translate(0 0.5)" />
                 </clipPath>
             </defs>
         </svg>
@@ -294,10 +294,10 @@ export const CircleEllipseSvg = () => {
     return (
         <svg className="w-full" width="744" height="744" viewBox="0 0 744 744" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle opacity="0.05" cx="372" cy="372" r="371.5" stroke="#CAC6DD" />
-            <circle opacity="0.1" cx="371.999" cy="371.999" r="313.673" stroke="#CAC6DD"/>
+            <circle opacity="0.1" cx="371.999" cy="371.999" r="313.673" stroke="#CAC6DD" />
             <circle opacity="0.1" cx="372" cy="372" r="244.519" stroke="#CAC6DD" />
-            <circle opacity="0.1" cx="371.999" cy="371.999" r="171.788" stroke="#CAC6DD"/>
-            <circle opacity="0.1" cx="371.999" cy="371.999" r="109.788" stroke="#CAC6DD"/>
+            <circle opacity="0.1" cx="371.999" cy="371.999" r="171.788" stroke="#CAC6DD" />
+            <circle opacity="0.1" cx="371.999" cy="371.999" r="109.788" stroke="#CAC6DD" />
         </svg>
     );
 };
@@ -571,7 +571,7 @@ export const FooterGradientMixup = () => {
 };
 export const WhiteTick = () => {
     return (
-        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-6 h-6" width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path className="group-hover:stroke-[#2BE295] transition-colors duration-300 ease-linear" d="M15.875 8.625C15.875 8.625 12.2975 12.435 11.375 15.375L9.125 13.125M21.875 12C21.875 14.4864 20.8873 16.871 19.1291 18.6291C17.371 20.3873 14.9864 21.375 12.5 21.375C10.0136 21.375 7.62903 20.3873 5.87087 18.6291C4.11272 16.871 3.125 14.4864 3.125 12C3.125 9.5136 4.11272 7.12903 5.87087 5.37087C7.62903 3.61272 10.0136 2.625 12.5 2.625C14.9864 2.625 17.371 3.61272 19.1291 5.37087C20.8873 7.12903 21.875 9.5136 21.875 12Z" stroke="white" strokeOpacity="0.6" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
     )

@@ -6,13 +6,17 @@ export const navLinkData = [
     { path: "#service", link: "Services" },
     { path: "#faq", link: "FAQs" },
 ];
+export const footerlinkData = [
+    { path: "#features", link: "FEATURES" },
+    { path: "#service", link: "SERVICE" },
+    { path: "#pricing", link: "PRICING" },
+    { path: "#howtouse", link: "HOW TO USE" },
+]
 export const CommonBtn = (props) => {
     return (
-        <button className={`py-2.5 sm:py-3.5 px-[25px] rounded-full text-white hover:shadow-gradientRed transition-all duration-300 ease-linear bg-btngradient font-medium text-xl leading-6 flex ${props.className}`}>{props.name}</button>
+        <button className={`py-2.5 sm:py-3.5 px-[25px] rounded-full text-white hover:shadow-gradientRed duration-300 ease-linear bg-btngradient font-medium text-xl leading-6 flex ${props.className}`}>{props.name}</button>
     )
 }
-
-// section 2
 
 export const crmData = [
     {
@@ -49,8 +53,6 @@ export const companiesData = [
     { companyLogo: (<GlobalBankLogo />), companyLink: "globalbank", ClassName: "slg:hidden" },
 ];
 
-
-// section 4 
 export const serviceCardItems = [
     {
         id: 1,
@@ -156,9 +158,9 @@ export const Entrepreneurcontent = () => {
             {Enterpreneurdata.map((line, index) => {
                 return (
                     <div key={index} className='flex gap-3'>
-                        <div>
+                        <span>
                             <WhiteTick />
-                        </div>
+                        </span>
                         <p className='font-medium text-2sm text-dark-gray leading-2xl'>{line.description}</p>
                     </div>
                 )
