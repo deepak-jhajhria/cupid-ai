@@ -23,14 +23,14 @@ const Header = () => {
                                             </li>
                                         ))
                                     }
-                                    <li className="mt-10 lg:hidden"><a href="#" className="font-normal text-xl leading-4 duration-300 text-white hover:text-[#B302B1]"> Log in</a></li>
+                                    <li className="lg:hidden"><a href="#" className="font-normal text-xl leading-4 duration-300 text-white hover:text-[#B302B1]"> Log in</a></li>
                                     <li className="lg:hidden"><CommonBtn name="Sing up" /></li>
                                 </ul>
                                 <div className="items-center hidden gap-5 lg:flex">
                                     <a href="#" className="font-normal text-xl leading-4 duration-300 text-white hover:text-[#B302B1]"> Log in</a>
                                     <CommonBtn name="Sing up" />
                                 </div>
-                                <div className={`relative z-[110] mx-2 sm:mx-3 lg:hidden ${isOpen ? " absolute -top-3 -right-3" : ""}`}>
+                                <div className={`relative z-[110] mx-2 sm:mx-3 lg:hidden`}>
                                     <Hamburger toggled={isOpen} toggle={setOpen} size={26} rounded distance="sm" direction='right' duration={0.5} color='#FFF' />
                                 </div>
                             </div>
