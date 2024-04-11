@@ -21,7 +21,7 @@ const BackToTop = () => {
     return (
         isVisible &&
         <div onClick={scrollToTop} className='fixed z-30 bottom-10 sm:bottom-24 lg:bottom-40 2xl:bottom-10 right-3 sm:right-5'>
-            <button className="rounded-full duration-300 hover:shadow-[0_0_20px_1px_#8F61E7] group z-50 w-10 sm:w-12 h-10 sm:h-12 bg-bg-gradient  flex items-center justify-center shadow-[0_0_0_4px_rgba(180,160,255,0.253)]">
+            <button className="rounded-full duration-300 hover:shadow-[0_0_20px_1px_#8F61E7] group z-50 w-10 sm:w-12 h-10 sm:h-12 bg-gradientEllipsePrimary  flex items-center justify-center shadow-[0_0_0_4px_rgba(180,160,255,0.253)]">
                 <BackToTopIcon />
             </button>
         </div>

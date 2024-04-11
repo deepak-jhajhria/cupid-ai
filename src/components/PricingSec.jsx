@@ -21,21 +21,21 @@ const PricingSec = () => {
                                     <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border hover:z-20 group lg:min-h-[723px] md:min-h-[700px] min-h-[600px] h-full lg:hover:min-h-[774px] group'>
                                         <div className='sm:p-8 p-5 bg- rounded-3xl flex justify-between flex-col lg:min-h-[723px] md:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px]'>
                                             <div className='duration-300'>
-                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textgradient group-hover:text-transparent'>{item.heading}</h3>
-                                                <p className='my-4 text-sm font-medium sm:my-6 sm:text-base sm:leading-15 text-dark-gray'>{item.para}</p>
+                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent'>{item.heading}</h3>
+                                                <p className='my-4 text-sm font-medium text-white duration-300 sm:my-6 sm:text-base sm:leading-15 opacity-60'>{item.para}</p>
                                                 <div className='flex items-center gap-2'>
                                                     <h3 className='font-semibold text-white sm:text-4xl2 text-3xl1 lg:text-5xl leading-14'>{item.price}</h3>
                                                     <div className='flex flex-col h-full'>
-                                                        <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-17'>/ month</p>
-                                                        <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-17'>{item.user}</p>
+                                                        <p className='text-xs font-medium text-white sm:text-2sm leading-17 opacity-60'>/ month</p>
+                                                        <p className='text-xs font-medium text-white sm:text-2sm leading-17 opacity-60'>{item.user}</p>
                                                     </div>
                                                     {item.disbtn}
                                                 </div>
                                                 {item.billed}
-                                                <p className='mb-4 text-xs font-medium sm:text-2sm text-dark-gray leading-17'>What’s included</p>
+                                                <p className='mb-4 text-xs font-medium text-white sm:text-2sm leading-17'>What’s included</p>
                                                 {item.includedata}
                                             </div>
-                                            <button className='py-2.5 px-3 border border-solid border-gray-black-200 after:bg-btngradient group-hover:border-none transition-all  bg-transparent duration-300 text-white text-base font-medium text-nowrap rounded-xl w-full after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:transition-all after:duration-300 after after:rounded-xl after:opacity-0 group-hover:after:opacity-100 relative'><p className='relative z-10 text-base font-medium text-white text-nowrap'>Select Plan</p></button>
+                                            <button className='py-2.5 px-3 border border-solid border-gray-black-200 after:bg-btnGradient group-hover:border-none transition-all  bg-transparent duration-300 text-white text-base font-medium text-nowrap rounded-xl w-full after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:transition-all after:duration-300 after after:rounded-xl after:opacity-0 group-hover:after:opacity-100 relative'><p className='relative z-10 text-base font-medium text-white text-nowrap'>Select Plan</p></button>
                                         </div>
                                     </div>
                                 </div >
@@ -49,21 +49,21 @@ const PricingSec = () => {
                                     <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border lg:hover:min-h-[774px] group hover:z-20 group lg:min-h-[723px] md:min-h-[700px] min-h-[600px] h-full'>
                                         <div className='sm:p-8 p-5 rounded-3xl flex justify-between flex-col lg:min-h-[723px] md:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px]'>
                                             <div>
-                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textgradient group-hover:text-transparent'>{item.heading}</h3>
-                                                <p className='my-4 text-sm fot-medium sm:my-6 sm:text-base sm:leading-15 text-dark-gray'>{item.para}</p>
+                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent'>{item.heading}</h3>
+                                                <p className='my-4 text-sm text-white duration-300 fot-medium sm:my-6 sm:text-base sm:leading-15 opacity-60'>{item.para}</p>
                                                 <div className='flex items-center gap-2'>
                                                     <h3 className='font-semibold text-white sm:text-4xl2 text-3xl1 lg:text-5xl leading-14'>{item.price}</h3>
                                                     <div className='flex flex-col h-full'>
-                                                        <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-17'>/ month</p>
-                                                        <p className='text-xs font-medium sm:text-2sm text-dark-gray leading-17'>{item.user}</p>
+                                                        <p className='text-xs font-medium text-white sm:text-2sm leading-17 opacity-60'>/ month</p>
+                                                        <p className='text-xs font-medium text-white sm:text-2sm leading-17 opacity-60'>{item.user}</p>
                                                     </div>
                                                     {item.disbtn}
                                                 </div>
                                                 {item.billed}
-                                                <p className='mb-4 text-xs font-medium sm:text-2sm text-dark-gray leading-17'>What’s included</p>
+                                                <p className='mb-4 text-xs font-medium text-white sm:text-2sm leading-17'>What’s included</p>
                                                 {item.includedata}
                                             </div>
-                                            <button className='py-2.5 px-3 border border-solid border-gray-black-200 after:bg-btngradient group-hover:border-none transition-all  bg-transparent duration-300 text-white text-base font-medium text-nowrap rounded-xl w-full after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:transition-all after:duration-300 after after:rounded-xl after:opacity-0 group-hover:after:opacity-100 relative'><p className='relative z-10 text-base font-medium text-white text-nowrap'>Select Plan</p></button>
+                                            <button className='py-2.5 px-3 border border-solid border-gray-black-200 after:bg-btnGradient group-hover:border-none transition-all  bg-transparent duration-300 text-white text-base font-medium text-nowrap rounded-xl w-full after:absolute after:top-0 after:bottom-0 after:left-0 after:right-0 after:transition-all after:duration-300 after after:rounded-xl after:opacity-0 group-hover:after:opacity-100 relative'><p className='relative z-10 text-base font-medium text-white text-nowrap'>Select Plan</p></button>
                                         </div>
                                     </div>
                                 </div >

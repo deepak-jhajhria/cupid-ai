@@ -27,7 +27,7 @@ module.exports = {
       padding: {
         DEFAULT: '12px',
         'md': '14px',
-        'xl':'0',
+        'xl': '0',
       },
       center: true,
     },
@@ -35,12 +35,11 @@ module.exports = {
       inter: ['inter', 'sans-serif'],
     },
     letterSpacing: {
-      tighter: '-1px', //use
-      midtighter: '0.05px', // use
-      tightest: '-0.5px', //use
+      tighter: '-1px', 
+      midtighter: '0.05px', 
+      tightest: '-0.5px', 
       tight: '-.025em',
-      normal: '0',
-      wide: '.035em', // use
+      wide: '.035em', 
     },
     extend: {
       screens: {
@@ -61,9 +60,7 @@ module.exports = {
       },
       colors: {
         'black-primary': '#040403',
-        'black-primary-nav': '#01020F',
         'black-primary-100': '#01020f63',
-        'black-primary-200': '#FBF0F02E',
         'gray': '#646464',
         'gray-white': '#E4E2EE',
         'gray-white-200': '#EAECF0',
@@ -76,13 +73,10 @@ module.exports = {
         'off-black': '#0E0D0D',
         'mid-gray': '#212121',
         'blue': '#7F04E2',
-        'orange-red': '#F800B9',
         'dark-black': '#1B1530',
-        'bodymain': '#040403',
         'light-red': '#FF6363',
         'dark-black-300': '#110E19',
         'gray-white-500': '#FFFFFF1A',
-        'gray-white-600': '#FFFFFF0D',
         'gray-black-200': '#858585',
       },
       animation: {
@@ -109,13 +103,13 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "bg-gradient": "linear-gradient(235.8deg, #7F04E3 -12.6%, #FF006B 106.18%)",
-        "bg_gradient": "linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #040403 100%);",
-        'whitegradient': "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%)",
-        'whiteborder': "linear-gradient(106.78deg, rgba(255, 255, 255, 0.23) 6.02%, rgba(255, 255, 255, 0.0759) 104.65%)",
-        'textgradient': "linear-gradient(97.84deg, #FF4141 0.52%, #FFA6B0 23.61%, #FFB6E6 50%, #FFD8D8 75%, #BF8DFF 100%)",
-        'headerTextgradient': "linear-gradient(88.36deg, #7F04E3 45.88%, #FF006B 76.63%)",
-        'btngradient': "linear-gradient(191.8deg, #7F04E3 -12.6%, #FF006B 106.18%)",
+        "gradientEllipsePrimary": "linear-gradient(235.8deg, #7F04E3 -12.6%, #FF006B 106.18%)",
+        "gradientEllipseSecond": "linear-gradient(180deg, rgba(14, 14, 14, 0) 0%, #040403 100%);",
+        'whiteGradient': "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%)",
+        'whiteBorderGradient': "linear-gradient(106.78deg, rgba(255, 255, 255, 0.23) 6.02%, rgba(255, 255, 255, 0.0759) 104.65%)",
+        'textGradient': "linear-gradient(97.84deg, #FF4141 0.52%, #FFA6B0 23.61%, #FFB6E6 50%, #FFD8D8 75%, #BF8DFF 100%)",
+        'headertextGradient': "linear-gradient(88.36deg, #7F04E3 45.88%, #FF006B 76.63%)",
+        'btnGradient': "linear-gradient(191.8deg, #7F04E3 -12.6%, #FF006B 106.18%)",
         'gradientTrailBtn': "linear-gradient(96.17deg, #7F04E3 6%, #FF006B 98.41%)",
       },
       backgroundSize: {

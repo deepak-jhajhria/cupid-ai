@@ -3,7 +3,7 @@ import { aiVerificationData } from "./common/Helper";
 import { YellowMan } from "./common/Icons";
 const AiVerification = () => {
     return (
-        <div id="whyus" className=" bg-bodymain xl:pt-11 mt-[-2px] ">
+        <div id="whyus" className=" bg-black-primary xl:pt-11 mt-[-2px] ">
             <div className="container max-w-[1320px]">
                 <h2 className="font-bold lg:text-6xl sm:text-4xl text-3xl1 text-white sm:leading-[56px] leading-[42px]  tracking-[-1.2px]"> A CRM created <br /> to be your own.</h2>
                 <p className="font-medium text-gray md:text-xxl text-lg sm:text-xl mt-[22px] tracking-[0.2px]">Tweak anything and everything to ensure fits<br />your business, not the other way around.</p>

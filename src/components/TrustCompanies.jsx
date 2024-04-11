@@ -2,7 +2,7 @@ import { companiesData } from "./common/Helper";
 
 const TrustCompanies = () => {
   return (
-    <div id="features" className="pb-6 -mt-24 overflow-hidden sm:pb-10 sm:-mt-40 md:-mt-72 bg-bodymain sm:pt-1">
+    <div id="features" className="pb-6 -mt-24 overflow-hidden sm:pb-10 sm:-mt-40 md:-mt-72 bg-black-primary sm:pt-1">
       <div id="howtouse" className="max-w-[1112px] mx-auto px-3 sm:pt-10 mt-8 pb-5 sm:pb-10 mb-8">
         <p className="  font-normal lg:text-xl sm:text-lg text-base leading-[30px] text-center text-gray-white-200">
           Trusted by 4,000+ companies
