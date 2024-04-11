@@ -14,7 +14,7 @@ const Header = () => {
                     <div className="relative gradientNavBorder after:!rounded-full">
                         <nav className=" bg-black-primary-100 rounded-4xl sm:rounded-full  p-2 lg:p-2.5 mt-4 sm:mt-8 md:mt-10">
                             <div className="relative z-10 flex items-center justify-between">
-                                <a className="flex items-center gap-2 text-2xl font-bold text-white sm:text-3xl" href="/"><span> <Logo /> </span> CupidAI</a>
+                                <a className="flex items-center gap-2 text-2xl font-bold text-white sm:text-3xl" href="#home"><span> <Logo /> </span> CupidAI</a>
                                 <ul className={`${isOpen ? "right-0" : "-right-full"} flex max-lg:fixed max-lg:top-0 max-lg:bg-black md:bg-full bg-cover max-lg:h-full max-lg:w-full !max-lg:z-50 max-lg:duration-300 max-lg:flex-col gap-7 items-center justify-center`}>
                                     {
                                         navLinkData.map((item, index) => (
@@ -37,7 +37,7 @@ const Header = () => {
                         </nav>
                     </div>
                     <div className="flex flex-col w-full justify-center items-center max-w-[623px] px-3 md:px-0 mx-auto mt-16 pt-2 relative z-[2]">
-                        <h2 className="font-semibold text-center text-white text-3xl1 sm:text-5xl md:text-6xl lg:text-7xl leading-11 sm:leading-12 lg:leading-13">Unleash <span className="text-transparent bg-headertextGradient bg-clip-text">Creativity</span>, Effortlessly</h2>
+                        <h2 className="font-bold text-center text-white text-3xl1 sm:text-5xl md:text-6xl lg:text-7xl leading-11 sm:leading-12 lg:leading-13">Unleash <span className="text-transparent bg-headertextGradient bg-clip-text">Creativity</span>, Effortlessly</h2>
                         <p className="mt-2 text-base font-normal text-center text-white md:leading-6 sm:text-lg md:text-xl">Elevate your agency's output with state-of-the-art AI, engineered to innovate at the speed of thought.</p>
                         <CommonBtn className="mt-5" name="Try Now" />
                     </div>

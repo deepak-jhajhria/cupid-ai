@@ -17,7 +17,7 @@ const AiVerification = () => {
                                         {obj.title}
                                     </h2>
                                 </div>
-                                <p className=" group-hover:text-gray-dark-200 duration-200 pt-[10px]  font-medium text-base leading-6 tracking-[-0.2px] text-gray-light-300">
+                                <p className=" group-hover:text-gray-dark-200 duration-200 pt-[10px] font-normal text-base leading-6 tracking-[-0.2px] text-gray-light-300">
                                     {obj.para}
                                 </p>
                             </div>
@@ -32,7 +32,7 @@ const AiVerification = () => {
                     “My team loves cupid reporting system because it’s so dynamic. We can
                     splice our data in so many different ways and combinations.”
                 </p>
-                <p className=" pt-4 sm:pt-5 md:pt-7 pb-7 sm:pb-10 md:pb-12 text-gray font-medium text-sm md:leading-5 tracking-[-0.1px] text-center">Davio White <br /> Chief of Staff, Pallet</p>
+                <p className=" pt-4 sm:pt-5 md:pt-7 pb-10 md:pb-12 text-gray font-medium text-sm md:leading-5 tracking-[-0.1px] text-center">Davio White <br /> Chief of Staff, Pallet</p>
             </div>
         </div>
     );
