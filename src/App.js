@@ -2,6 +2,7 @@ import './App.css';
 import AiVerification from './components/AiVerification';
 import BackToTop from './components/BackToTop';
 import Faq from './components/Faq';
+import FaqAndFooter from './components/FaqAndFooter';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import IdentityHub from './components/IndentityHub';
@@ -14,7 +15,7 @@ import { usePreloader } from './components/common/Hooks';
 function App() {
   const isLoading = usePreloader();
   return (
-    <div className="mx-auto overflow-hidden bg-black-primary">
+    <div className="mx-auto bg-black-primary">
       <div className='max-w-[1920px] mx-auto'>
         {
           isLoading ? (<Preloader />) : (<>
@@ -23,9 +24,7 @@ function App() {
             <AiVerification />
             <ServiceSec />
             <PricingSec />
-            <Faq />
-            <IdentityHub />
-            <Footer />
+            <FaqAndFooter />
             <BackToTop /></>)
         }
       </div>

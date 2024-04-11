@@ -460,7 +460,7 @@ export const FacebookIcon = () => {
 };
 export const FooterGradientMixup = () => {
     return (
-        <svg className="w-full min-h-[510px] lg:min-h-[809px] opacity-70 sm:opacity-100" width="1920" viewBox="0 0 1440 802" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-full min-h-[510px] lg:min-h-[809px] opacity-70 sm:opacity-100" width="2220" viewBox="0 0 1440 802" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_f_8012_36)">
                 <ellipse opacity="0.3" cx="998.865" cy="685.099" rx="334.103" ry="400.599" fill="#3840FF"/>
                 <ellipse cx="261.136" cy="852.099" rx="334.103" ry="400.599" fill="#A661FF"/>
