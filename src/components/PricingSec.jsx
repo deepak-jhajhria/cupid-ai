@@ -18,8 +18,8 @@ const PricingSec = () => {
                         {
                             PricedataMonth.map((item, index) => (
                                 <div key={index} className='flex items-center justify-center w-full mt-5 sm:mt-8 lg:w-4/12 md:w-6/12 lg:mt-0 md:mt-10'>
-                                    <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border hover:z-20 group lg:min-h-[723px] sm:min-h-[700px] min-h-[600px] h-full lg:hover:min-h-[774px] group'>
-                                        <div className='sm:p-8 p-5 bg- rounded-3xl flex justify-between flex-col lg:min-h-[723px] sm:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px]'>
+                                    <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border hover:z-20 group lg:min-h-[723px] sm:min-h-[700px] min-h-[600px] h-full lg:hover:min-h-[774px] group w-full'>
+                                        <div className='sm:p-8 p-5 bg- rounded-3xl flex justify-between flex-col lg:min-h-[723px] sm:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px] w-full'>
                                             <div className='duration-300'>
                                                 <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent'>{item.heading}</h3>
                                                 <p className='my-4 text-sm font-medium text-white duration-300 sm:my-6 sm:text-base sm:leading-15 opacity-60'>{item.para}</p>
@@ -46,8 +46,8 @@ const PricingSec = () => {
                         {
                             PricedataYear.map((item, index) => (
                                 <div key={index} className='flex items-center justify-center w-full mt-5 sm:mt-8 lg:w-4/12 md:w-6/12 sm:w-10/12 lg:mt-0 md:mt-10'>
-                                    <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border lg:hover:min-h-[774px] group hover:z-20 group lg:min-h-[723px] sm:min-h-[700px] min-h-[600px] h-full'>
-                                        <div className='sm:p-8 p-5 rounded-3xl flex justify-between flex-col lg:min-h-[723px] sm:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px]'>
+                                    <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border lg:hover:min-h-[774px] group hover:z-20 group lg:min-h-[723px] sm:min-h-[700px] min-h-[600px] h-full w-full'>
+                                        <div className='sm:p-8 p-5 rounded-3xl flex justify-between flex-col lg:min-h-[723px] sm:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px] w-full'>
                                             <div>
                                                 <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent'>{item.heading}</h3>
                                                 <p className='my-4 text-sm font-medium text-white duration-300 sm:my-6 sm:text-base sm:leading-15 opacity-60'>{item.para}</p>
