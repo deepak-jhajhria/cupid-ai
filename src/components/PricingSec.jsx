@@ -6,7 +6,7 @@ const PricingSec = () => {
     const [toggle, setToggle] = useState(1)
     return (
         <div id='pricing' className='relative xl:mt-20 overflow-x-clip'>
-            <div  className="xl:max-w-[1240px] xl:pt-24 md:pt-12 pt-6 container max-w-[1320px] relative z-20">
+            <div  className="xl:max-w-[1240px] xl:pt-24 md:pt-16 pt-10 container max-w-[1320px] relative z-20">
                 <h2 className='font-bold tracking-tighter text-center text-white lg:text-4xl sm:text-3xl2 text-3xl1 leading-16'>Pricing</h2>
                 <p className='pt-4 font-medium text-center text-dark-gray text-lg sm:text-xl md:text-xxl sm:pt-5 max-w-[476px] mx-auto md:leading-16'>Tweak anything and everything to ensure fits your business, not the other way around.</p>
                 <div className='bg-gray-white-500 rounded-4xl p-1 max-w-[192px] mx-auto w-full flex justify-between lg:mt-[44.5px] mt-6'>
@@ -21,7 +21,7 @@ const PricingSec = () => {
                                     <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border hover:z-20 group lg:min-h-[723px] sm:min-h-[700px] min-h-[600px] h-full lg:hover:min-h-[774px] group w-full'>
                                         <div className='sm:p-8 p-5 bg- rounded-3xl flex justify-between flex-col lg:min-h-[723px] sm:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px] w-full'>
                                             <div className='duration-300'>
-                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent'>{item.heading}</h3>
+                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent pricingHeading'>{item.heading}</h3>
                                                 <p className='my-4 text-sm font-medium text-white duration-300 sm:my-6 sm:text-base sm:leading-15 opacity-60'>{item.para}</p>
                                                 <div className='flex items-center gap-2'>
                                                     <h3 className='font-semibold text-white sm:text-4xl2 text-3xl1 lg:text-5xl leading-14'>{item.price}</h3>
@@ -49,7 +49,7 @@ const PricingSec = () => {
                                     <div className='max-w-[410px] relative z-10 duration-300 cursor-pointer blur_box_border lg:hover:min-h-[774px] group hover:z-20 group lg:min-h-[723px] sm:min-h-[700px] min-h-[600px] h-full w-full'>
                                         <div className='sm:p-8 p-5 rounded-3xl flex justify-between flex-col lg:min-h-[723px] sm:min-h-[774px] min-h-[600px] h-full duration-300 lg:group-hover:min-h-[774px] w-full'>
                                             <div>
-                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent'>{item.heading}</h3>
+                                                <h3 className='inline-block text-lg font-medium text-white transition-all duration-300 group-hover:text-2xl sm:group-hover:text-3xl1 leading-18 group-hover:bg-clip-text group-hover:bg-textGradient group-hover:text-transparent pricingHeading'>{item.heading}</h3>
                                                 <p className='my-4 text-sm font-medium text-white duration-300 sm:my-6 sm:text-base sm:leading-15 opacity-60'>{item.para}</p>
                                                 <div className='flex items-center gap-2'>
                                                     <h3 className='font-semibold text-white sm:text-4xl2 text-3xl1 lg:text-5xl leading-14'>{item.price}</h3>

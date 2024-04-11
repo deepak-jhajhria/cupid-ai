@@ -84,3 +84,7 @@ body::-webkit-scrollbar-thumb {
 .transition_3s {
   transition: all .3s linear !important;
 }
+
+.pricingHeading {
+  transition: font-size 1s;
+}

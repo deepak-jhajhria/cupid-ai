@@ -81,8 +81,8 @@ module.exports = {
       },
       animation: {
         'moveX': 'translateX 39s linear infinite forwards',
-        'moveSmX': 'translateSmX 49s linear infinite forwards',
-        'movelinner': 'move_ellipes 2s linear infinite alternate',
+        'moveSmX': 'translateSmX 49s ease infinite forwards',
+        'movelinner': 'move_ellipes 2s ease infinite alternate',
       },
       keyframes: {
         translateX: {
@@ -90,8 +90,8 @@ module.exports = {
           '100%': { transform: 'translateX(-80%)' },
         },
         translateSmX: {
-          '0%': { transform: 'translateX(150%)' },
-          '100%': { transform: 'translateX(-150%)' },
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
         },
         move_ellipes: {
           '0%': {
@@ -108,7 +108,7 @@ module.exports = {
         'whiteGradient': "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%)",
         'whiteBorderGradient': "linear-gradient(106.78deg, rgba(255, 255, 255, 0.23) 6.02%, rgba(255, 255, 255, 0.0759) 104.65%)",
         'textGradient': "linear-gradient(97.84deg, #FF4141 0.52%, #FFA6B0 23.61%, #FFB6E6 50%, #FFD8D8 75%, #BF8DFF 100%)",
-        'headertextGradient': "linear-gradient(88.36deg, #7F04E3 45.88%, #FF006B 76.63%)",
+        'headertextGradient': "linear-gradient(34.36deg, #7F04E3 17.88%, #FF006B 76.63%)",
         'btnGradient': "linear-gradient(191.8deg, #7F04E3 -12.6%, #FF006B 106.18%)",
         'gradientTrailBtn': "linear-gradient(96.17deg, #7F04E3 6%, #FF006B 98.41%)",
       },

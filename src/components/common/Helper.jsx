@@ -39,6 +39,15 @@ export const companiesData = [
     { companyLogo: (<FatherDevLogo />), companyLink: "featherdev", ClassName: "slg:hidden" },
     { companyLogo: (<SpheruleLogo />), companyLink: "spherule", ClassName: "slg:hidden" },
     { companyLogo: (<GlobalBankLogo />), companyLink: "globalbank", ClassName: "slg:hidden" },
+    { companyLogo: (<BoltShiftLogo />), companyLink: "blotshift", ClassName: "slg:hidden" },
+    { companyLogo: (<LightBoxLogo />), companyLink: "lighbox", ClassName: "slg:hidden" },
+    { companyLogo: (<FatherDevLogo />), companyLink: "featherdev", ClassName: "slg:hidden" },
+    { companyLogo: (<SpheruleLogo />), companyLink: "spherule", ClassName: "slg:hidden" },
+    { companyLogo: (<GlobalBankLogo />), companyLink: "globalbank", ClassName: "slg:hidden" },
+    { companyLogo: (<LightBoxLogo />), companyLink: "lighbox", ClassName: "slg:hidden" },
+    { companyLogo: (<FatherDevLogo />), companyLink: "featherdev", ClassName: "slg:hidden" },
+    { companyLogo: (<SpheruleLogo />), companyLink: "spherule", ClassName: "slg:hidden" },
+    { companyLogo: (<GlobalBankLogo />), companyLink: "globalbank", ClassName: "slg:hidden" },
 ];
 
 export const serviceCardItems = [

@@ -1,11 +1,8 @@
 import './App.css';
 import AiVerification from './components/AiVerification';
 import BackToTop from './components/BackToTop';
-import Faq from './components/Faq';
 import FaqAndFooter from './components/FaqAndFooter';
-import Footer from './components/Footer';
 import Header from './components/Header';
-import IdentityHub from './components/IndentityHub';
 import Preloader from './components/Preloader';
 import PricingSec from './components/PricingSec';
 import ServiceSec from './components/ServiceSec';
