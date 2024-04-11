@@ -12,7 +12,7 @@ import { usePreloader } from './components/common/Hooks';
 function App() {
   const isLoading = usePreloader();
   return (
-    <div className="mx-auto bg-black-primary">
+    <div className="bg-black-primary">
       <div className='max-w-[1920px] mx-auto'>
         {
           isLoading ? (<Preloader />) : (<>
